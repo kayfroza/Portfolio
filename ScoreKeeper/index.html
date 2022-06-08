@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="column">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2099&q=80"
+                                    alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Ping Pong Scorekeeper</p>
+                                </div>
+                            </div>
+                            <h1 class="title is-1"><span id="playerOneScore">0</span> to <span
+                                    id="playerTwoScore">0</span></h1>
+                            <p class="subtitle">Use the buttons below to keep score.</p>
+                            <label for="playTo" class="label is-large is-inline">Playing To</label>
+                            <div class="select is-rounded mb-4">
+                                <select name="" id="playTo">
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                </select>
+                                <div class="content">
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <button id="playerOnebtn" class="is-primary button card-footer-item is-large">+1 Player
+                                    1</button>
+                                <button id="playerTwobtn" class="is-info button card-footer-item is-large">+1 Player
+                                    2</button>
+                                <button id="reset" class="is-danger button card-footer-item is-large">Reset</button>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src=script.js></script>
+</body>
+
+</html>

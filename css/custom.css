@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;800&display=swap');
+.hamburger-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .hamburger-container {
+        display: none;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff7171 !important;
+}
+
+.color-pink {
+    color: #ff7171 !important;
+}
+
+.skills li {
+    padding: 40px;
+}
+
+

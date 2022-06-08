@@ -1,0 +1,31 @@
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+
+.search {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+}
+
+.button {
+    margin: 10 auto;
+    padding: 7px 12px;
+    background: rgb(52, 103, 150);  /* fallback for old browsers */
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+#searchForm {
+    text-align: center;
+}
+
+.show {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 6px #00000033;
+}

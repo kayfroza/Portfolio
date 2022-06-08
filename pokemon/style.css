@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;800&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pokemon {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px #00000033;
+}
+
+.pokemon img {
+    display: block;
+}
+
+.pokemon button {
+    display: block;
+    margin: 10 auto;
+    padding: 7px 12px;
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
